@@ -1,0 +1,12 @@
+[licensing]
+# This file only links to an image, not a software license.
+exclude_files = ["vendor/modernc.org/memory/LICENSE-LOGO"]
+
+[[licensing.licenses]]
+path = "vendor/modernc.org/libc/LICENSE-3RD-PARTY.md"
+sha256sum = "f597097efe3d97021f89170746bd3a0fb9a8b6fb26b82043ed68a4e0283bee6c"
+expression = "BSD-2-Clause AND BSD-3-Clause AND MIT"
+[[licensing.licenses]]
+path = "vendor/modernc.org/sqlite/SQLITE-LICENSE"
+sha256sum = "8438c9c89b849131ead81d5435cb97fcf052df5b0b286dda8a2d4c29e6cb3fd0"
+expression = "LicenseRef-Fedora-Public-Domain"
